@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro execicio de JS</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        h1{
+            color: red;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+
+        p{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+
+     <p>já me livrei da maldição</p>
+    
+    <script>
+        var nome = prompt('Qual seu nome?')
+        document.writeln(`Seu nome ${nome} tem ${nome.length} letras </br>`)
+        document.writeln(`Seu nome em maiúsculas é ${nome.toUpperCase()} </br>`)
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()} </br>`)//n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) localização monetária
+    </script>
+</body>
+</html>
